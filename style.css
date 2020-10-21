@@ -5,7 +5,8 @@ modify basic layout - backgrounds, margins, padding) and typography
 no CSS or <br> in markup */
 
 html {
-    background: #fd59d2
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    /*credit: https://codepen.io/nohoid/pen/kIfto */
 }
 
 body {
@@ -20,8 +21,26 @@ body {
 h1 {
     font-size: 3em;
     margin: 0;
+    color: #fd59d2;
+    ;
 }
 
 p {
     line-height: 1.4em;
 }
+
+article {
+    padding: 20px;
+    margin: 10px;
+    border-top: 5px solid #242424;
+    /* border-left: 3px solid #242424;
+    border-right: 3px solid #242424;
+    border-bottom: 3px solid #242424; */
+}
+
+.artititle {
+    color: #fd59d2;
+}
+
+/* need 6 more
+need to change some naems to make them more specific */ 
