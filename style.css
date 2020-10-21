@@ -1,11 +1,18 @@
+/* 1o rule sets
+At least 1 type, class, ID and attribute selector
+works consistently across HTML
+modify basic layout - backgrounds, margins, padding) and typography
+no CSS or <br> in markup */
+
 html {
     background: #fd59d2
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 80px;
-    color: #242424;
+    margin: 40px;
+    padding: 40px;
+    color: #493434;
     border-top: 10px solid #242424;
     background: #fff;
 }
