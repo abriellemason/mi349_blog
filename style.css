@@ -26,28 +26,23 @@ body {
     background-color: 	#000;
   }
   
-  .nav li {
+.nav li {
     float: left;
-  }
+}
   
-  .nav li a {
+.nav li a {
     display: block;
     color: #fff;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
+}
 
 .nav a:hover {
     background-color: #fff;
     color: #fd59d2;
 }
 
-/* .nav li {
-    content:" | ";
-    padding-left: 10px solid #fff;
-    color: #fff;
-    overflow:hidden; */
 }
 
 h1 {
