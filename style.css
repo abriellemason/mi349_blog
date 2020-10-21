@@ -20,29 +20,41 @@ body {
 
 .nav {
     list-style-type: none;
-    float: top;
-    display: block;
-    text-align: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100%;
-}
-
-li {
-    
-}
+    background-color: 	#000;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
 
 .nav a:hover {
     background-color: #fff;
     color: #fd59d2;
 }
 
+/* .nav li {
+    content:" | ";
+    padding-left: 10px solid #fff;
+    color: #fff;
+    overflow:hidden; */
+}
+
 h1 {
     font-size: 3em;
     margin: 0;
     color: #fd59d2;
-    ;
+    padding-bottom: .5em;
 }
 
 h2 {
@@ -59,9 +71,6 @@ article {
     padding: 20px;
     margin: 10px;
     overflow: hidden;
-    /* border-left: 3px solid #242424;
-    border-right: 3px solid #242424;
-    border-bottom: 3px solid #242424; */
 }
 
 .artititle {
@@ -90,4 +99,9 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+    background-color: #fff;
+    color: #fd59d2;
+    border: 2px solid #fd59d2;
+}
 /* attribute */
