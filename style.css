@@ -7,7 +7,21 @@ no CSS or <br> in markup */
 html {
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     /*credit: https://codepen.io/nohoid/pen/kIfto */
+    animation: color-change 1s infinite;
+    /* credit: https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3 */
 }
+
+/*@keyframes color-change {
+    0% { color: #ff2400; }
+    14% { color: #e81d1d; }
+    28.5% { color: #e8b71d; }
+    43% { color: #e3e81d; }
+    57% { color: #1de840; }
+    71.5% { color: #1ddde8; }
+    86% { color: #dd00f3; }
+    100% { color: #dd00f3; }
+  }
+  credit: https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -23,8 +37,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: 	#000;
-  }
+    background-color:	#000;
+}
   
 .nav li {
     float: left;
@@ -43,7 +57,7 @@ body {
     color: #fd59d2;
 }
 
-}
+/* credits for nav bar go to https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu*/
 
 h1 {
     font-size: 3em;
@@ -84,7 +98,7 @@ article img {
 }
 
 button {
-    background-color: #fd59d2; /* Green */
+    background-color: #fd59d2;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -99,4 +113,3 @@ button:hover {
     color: #fd59d2;
     border: 2px solid #fd59d2;
 }
-/* attribute */
