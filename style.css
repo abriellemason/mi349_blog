@@ -91,6 +91,29 @@ article img {
     max-height:100%;
 }
 
+a[href] {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a[href]:hover {
+    background-color: #fff;
+    color: #fd59d2;
+    border: 2px solid #fd59d2;
+}
+
+.contact {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #signup {
     padding: 20px;
     margin: 10px;
