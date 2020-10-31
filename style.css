@@ -78,12 +78,19 @@ p {
     line-height: 1.4em;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
+
 article {
     border-top: 5px solid #242424;
     padding: 20px;
     margin: 10px;
     overflow: hidden;
 }
+
+article:nth-of-type(1)
 
 .artititle {
     color: #fd59d2;
