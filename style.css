@@ -32,7 +32,7 @@ body {
     background: #fff;
 }
 
-.nav {
+nav {
     list-style-type: none;
     position: -webkit-sticky;
     position: sticky;
@@ -43,19 +43,18 @@ body {
     background-color:	#000;
 }
   
-.nav li {
+nav a {
     float: left;
-}
-  
-.nav li a {
-    display: block;
+    padding: 12px;
     color: #fff;
-    text-align: center;
-    padding: 16px;
     text-decoration: none;
+    width: 20%;
+    text-align: center;
+
+
 }
 
-.nav a:hover {
+nav a:hover {
     background-color: #fff;
     color: #fd59d2;
 }
@@ -80,7 +79,10 @@ p {
 
 section {
     display: flex;
-    flex-direction: column;
+}
+
+.h2-index {
+    float: top;
 }
 
 article {
@@ -90,7 +92,21 @@ article {
     overflow: hidden;
 }
 
-article:nth-of-type(1)
+article:nth-of-type(1) {
+    flex: 1;
+}
+
+article:nth-of-type(2) {
+    flex: 3;
+}
+
+article:nth-of-type(3) {
+    flex: 3;
+}
+
+article:nth-of-type(4) {
+    flex: 1;
+}
 
 .artititle {
     color: #fd59d2;
@@ -108,7 +124,7 @@ figure {
 }
 
 .image {
-    background-position: 50% 50%;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
