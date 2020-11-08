@@ -5,18 +5,6 @@ html {
     /* credit: https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3 */
 }
 
-/*@keyframes color-change {
-    0% { color: #ff2400; }
-    14% { color: #e81d1d; }
-    28.5% { color: #e8b71d; }
-    43% { color: #e3e81d; }
-    57% { color: #1de840; }
-    71.5% { color: #1ddde8; }
-    86% { color: #dd00f3; }
-    100% { color: #dd00f3; }
-  }
-  credit: https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3*/
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
@@ -44,8 +32,6 @@ nav a {
     text-decoration: none;
     width: 20%;
     text-align: center;
-
-
 }
 
 nav a:hover {
