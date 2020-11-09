@@ -176,7 +176,6 @@ button:hover {
     }
 
     figure {
-        float: center;
         margin-left: 5px;
         width: 40%;
         min-width: 50%;
@@ -196,6 +195,4 @@ button:hover {
         width:320px;
         height: 500px;
     }
-
-
 }
