@@ -18,9 +18,72 @@
     <h2 class="h2-index">LED Light Wall Edition</h2>
 
     <section>
+        <article>
+            <h3 class="artititle">The LED Board - FUll Display of Lights</h3>
+            <header>Abrielle Mason</header>
+            <time datetime="2020-10-05"></time>
+
+            <figure>
+                <p><img src="LED_board_redr.jpg" class="image" alt="LED Board - Red R"></p>
+                <figcaption>LED Light Board - Red with Errors</figcaption>
+            </figure>
+
+            <figure>
+                <p><img src="LED_board_bluer.jpg" class="image" alt="LED Board - Blue R"></p>
+                <figcaption>LED Light Board - Blue with Errors</figcaption>
+            </figure>
+
+            <figure>
+                <p><img src="LED-board_greenr.jpg" class="image" alt="LED Board - Green R"></p>
+                <figcaption>LED Light Board - Green with No Errors/figcaption>
+            </figure>
+
+            <p>\Something goes here.</p>
+
+        </article>
 
         <article>
-            <p><strong>Bored in the House Lyrics - </strong>Okay, I'm bored in the house and I'm in the house bored (bored), Bored in the house and I'm in the house bored (bored), Bored than a yoohoo in the house bored, And I'm bored than a yoohoo in the house bored, Bored in the house, Bored in the house, bored (bored), Bored in the house, Bored in the house, bored (bored), I'm bored than a yoohoo in the house bored</p>
+            <h3 class="artititle">LED Board - Data Information Reversed</h3>
+            <header>Abrielle Mason</header>
+            <time datetime="2020-11-27"></time>
+
+            <figure>
+                <p><img src="LED_board_reverse.jpg" class="image" alt=""></p>
+                <figcaption>LED Light Board - Data Lines Reversed</figcaption>
+            </figure>
+
+            <p>\Something goes here.</p>
+
+        </article>
+
+        <article>
+            <h3 class="artititle">Data, Power and Ground all Connected</h3>
+            <header>Abrielle Mason</header>
+            <time datetime="2020-11-20"></time>
+
+            <figure>
+                <p><img src="LED_board_connected.jpeg" class="image" alt="LED Board Connected"></p>
+                <figcaption>LED Light Board - Wires Connected</figcaption>
+            </figure>
+
+            <p>\So this part by far took the most amount of time to complete. I first had to cut the strips into 30 LEDs per strip (came in packs of 150 LEDs per strip). I then used a simple soldering kit to solder on the ground (black wire 12awg), data (white wire 18awg), and power (white wire 12awg). All odd strips received a ground and power at the bottom and connected with power and ground to the next strip at the tops of both, creating an upside down U. I then ran a long 28awg white wire for data from the top of the first strip to the bottom of the second strip, creating a Z. This way, the data would be display starting from the bottom of each strip and continuing up to the top of the strip. To keep things simpler, we decided to split the strips into 6 groups of 5 strips each to distribute data evenly. The power was distributed to 15 groups of 2 strips each. Strips 1, 6, 11, 16, 21, and 26 received new data wires and strips 5, 10, 15, 20, 15, and 30 were the end of each data group. It was hard to keep ths layout straight and there were several mistakes that had to be fixed later. With soldering, I learned it is important to have the right temperature, use lots of flux on the wires, and if you do not properly clean the solder5 tip (and the material is cheap), you can actually melt the tip off. Once we had the strips connected, we added a bus at the bottom and alternated power/ground between the two busses for each strip. We connected the busses to the power supply and the power supply to the power supply. We inserted the data wires into the Teensy 4.1 and had a small program tellign the lighs to flash red, green, blue, off, and repeat. We started with the first group of five and when that proved to work, we added the next group, tested, and repeated the process as each section came to life. We did have one incident in which the Teensy was dropped directly on the exposed wire, causing a small spark. We ended up killing a couple strips of LEDs as you can see in the picture below.</p>
+
+        </article>
+        
+        <article>
+            <h3 class="artititle">Painting and Assembling the LED Board</h3>
+            <header>Abrielle Mason</header>
+            <time datetime="2020-10-12"></time>
+
+            <figure>
+                <p><img src="LED_board_painted.jpg" class="image" alt="LED Board Painted"></p>
+                <figcaption>LED Light Board - Painted</figcaption>
+            </figure>
+
+            <p>After most of the board was assembled, except for the LED back board itself, I painted all the wooden parts with a white semi-gloss paint. I put three layers on carefully to avoid any thick areas of paint. I also painted the LED board but only the front. I let each layer dry for about 45 minutes (I saved time by alternating between the backboard and the frame). Once the paint was dry, I attached the backboard to the frame. I used steel screws to attach the backboard to the front of the frame. One issue I faced when nailing in the board was its inability to lay flat. The board we chose had a rather definining bow in the very middle of the board. We fixed this problem by carefully placing the screws along the boarder vof the board.
+                
+            I also want to mention we attached the POWER SUPPLY to the bottom right side of the frame, below the level of visibility as to not be seen once we add the front cover to hide the extra components and focus on the LEDs themselves. I also laid out a few strips of light to see where I wanted to place them. I ended up giving each light strip the same amount of space as one LED had to the next LED on the same strip <em>(1.25 in.)</em>. The idea would be for all LEDs to appear to be part of a prrecise grid where the height and width was t6he same from one LED to the next. I also planned to leave space on the sides, top, and bottom to account for wiring and allowing people to see the lights nearly 18- degrees around the front of the board.</p>
+
         </article>
 
         <article>
@@ -35,45 +98,45 @@
 
             <p>This project took me about 5 hours to complete. I had to go to the store and buy my materials:</p>
 
-        <table>
-            <tr>
-                <th>Qnty</th>
-                <th>Item</th>
-                <th>Material</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>1x3x48 in. board</td>
-                <td>poplar</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>1x6x96 in. board</td>
-                <td>poplar</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>1x8x96 in. board</td>
-                <td>poplar</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>1x2x96 in. board</td>
-                <td>pine</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>48x48 in. panel</td>
-                <td>pine</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>1.25 in. MP screws</td>
-                <td>steel</td>
-            </tr>
-        </table>
+            <table>
+                <tr>
+                    <th>Qnty</th>
+                    <th>Item</th>
+                    <th>Material</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1x3x48 in. board</td>
+                    <td>poplar</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1x6x96 in. board</td>
+                    <td>poplar</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1x8x96 in. board</td>
+                    <td>poplar</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1x2x96 in. board</td>
+                    <td>pine</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>48x48 in. panel</td>
+                    <td>pine</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1.25 in. MP screws</td>
+                    <td>steel</td>
+                </tr>
+            </table>
 
-        <p>I chose poplar wood over pine because pine is much easier to scratch up when working with the material. I started cut a <em>1x3x96 in.</em> board into two pieces (<em>1x3x48 in.</em>) and cut the edges at <em>45-degree</em> angles. I cut the side boards at <em>1x6x56 in.</em> I then trimmed <em>3 in.</em> off the <em>6 in.</em> width for only <em>48 in.</em> of the <em>1x6x56 in.</em> board so the side boards would match the top board (at <em>3 in.</em>) and leave the last <em>8 in.</em> of the <em>1x6x56 in.</em> board <em>6 in.</em> wide. The reason was to create a box for all the “behind-the-scenes” electrical work will be placed. I then cut two <em>1x6x48 in.</em> boards to go on the top and bottom of the box portion of my frame. I used two screws to connect all the sides together (2 x 4 = 8 screws). I then added some <em>1x2x46.5 in.</em> boards to sit inside the frame at the top and sides so I can nail the panel on (this is where the LED lights will go). Lastly, I had to cut <em>1.5 in.</em> off my <em>48x48 in.</em> panel on the top and right side so it can fit inside the frame. The results are shown below. The last step is to paint it white so we can get started on adding the LEDs.</p>
+            <p>I chose poplar wood over pine because pine is much easier to scratch up when working with the material. I started cut a <em>1x3x96 in.</em> board into two pieces (<em>1x3x48 in.</em>) and cut the edges at <em>45-degree</em> angles. I cut the side boards at <em>1x6x56 in.</em> I then trimmed <em>3 in.</em> off the <em>6 in.</em> width for only <em>48 in.</em> of the <em>1x6x56 in.</em> board so the side boards would match the top board (at <em>3 in.</em>) and leave the last <em>8 in.</em> of the <em>1x6x56 in.</em> board <em>6 in.</em> wide. The reason was to create a box for all the “behind-the-scenes” electrical work will be placed. I then cut two <em>1x6x48 in.</em> boards to go on the top and bottom of the box portion of my frame. I used two screws to connect all the sides together (2 x 4 = 8 screws). I then added some <em>1x2x46.5 in.</em> boards to sit inside the frame at the top and sides so I can nail the panel on (this is where the LED lights will go). Lastly, I had to cut <em>1.5 in.</em> off my <em>48x48 in.</em> panel on the top and right side so it can fit inside the frame. The results are shown below. The last step is to paint it white so we can get started on adding the LEDs.</p>
 
         </article>
  
@@ -89,10 +152,6 @@
 
             <p>Have you ever wanted to experience music in a different way? Have you ever wondered how music looks, tastes, or feels? Well… taste might be a bit hard to create but what we can create is a way for you to visualize music as if it were alive right in front of you. Picture an EDM concert – the crowd dancing, the DJ behind his booth, the lights flashing to the beat, and the big colors screen behind the DJ. With this DIY project, you will be able to recreate this experience I your own home. The goal with the LED Light Wall is to display music visually so you can “see” the beats, the vocals, and the sound of music. My idea was inspired by a shop called Cyberdog in London that I visited back in 2017. There was a DJ booth with an equalizer display located behind. When the DJ played music, the lights would display an equalizer, or a spectrum of low and high frequencies whenever they were detected by a microphone sensor. The bass, or low frequencies, would show up on the left side and the vocals and high pitches, or higher frequencies, would show up in the middle and right side of the spectrum. I could tell when beats were stronger, or vocals were louder by watching the lights increase or decrease when music became quieter. Today, I not only want to recreate this visualization of music but also push my creative mind to design more abstract and immersive ways to visualize music. Stay tuned to learn more about how to make your own LED Light Wall as I will be sharing my step-by-step process with you in upcoming blogs.</p>
 
-        </article>
-        
-        <article>
-            <p><strong>F2020 Lyrics - </strong>Lowkey F2020, Still sad, still ain't got no money, I ain't got a watch up on my wrist, I just got some stuff I gotta fix, yeah, Lowkey F2020, I don't know about everybody else, But I think that I am kinda done, Can we just get to 2021? Please, Lowkey F2020</p>
         </article>
     </section>
 
